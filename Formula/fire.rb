@@ -1,25 +1,25 @@
 class Fire < Formula
   desc "CLI with dynamic completion powered by external configuration"
   homepage "https://github.com/gbenm/fire"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-macos-arm64.tar.gz"
-      sha256 "82e99fc9d28da98502e9bc5d12a760588aed1635155faa0dcac8c8517f1970ef"
+      sha256 "93afd31008e81840fc2d1f6b3318ba2f741c1c9f01a6218ee95b653a6f954adf"
     end
 
     on_intel do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-macos-intel.tar.gz"
-      sha256 "1626d2b60b2c50097d505ca6bd88daab30bb0415582496daa7e0f34809e42bf3"
+      sha256 "fe63fa3d19e9d81b6ec60dd1bd5f92551a1f003f62e0ed297df3c7a7577f80b6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-linux-x86_64.tar.gz"
-      sha256 "84c737ba33b9ab0f6135fe0b5be1b13822ea5724781bfdbfb971d962b5b5839e"
+      sha256 "c8b82631c5d9c372646186420514449bbf1fce3e7e5e664e35025d1534680580"
     end
   end
 
