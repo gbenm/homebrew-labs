@@ -1,30 +1,30 @@
 class Fire < Formula
   desc "Config-first task runner with completion, detachable sessions, and an MCP server"
   homepage "https://github.com/gbenm/fire"
-  version "2.10.0"
+  version "2.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-macos-arm64.tar.gz"
-      sha256 "4212f802d09beef30671c35dd0221858bc99890f5f7e1e1702c78582c1748e9a"
+      sha256 "a848edcf24fcaf2ff103268fc58ad7a0dd3e2ee8c48d957147ca707fde80e49b"
     end
 
     on_intel do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-macos-intel.tar.gz"
-      sha256 "3c14998a81db14750009764dccc35bcf29d4e4d61f31dd32712609407e524fa7"
+      sha256 "5dd58cf68a888833f9bd6cdf7eec09e848ace956cc67402aa4b98842489f0f19"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-linux-arm64.tar.gz"
-      sha256 "dd67beaf0d1dd2eea74563185322d69466bb38b008ec40f45ccb3a49c84685b6"
+      sha256 "75f9b60c703f4a358e4512e2fad26ab09c61082c52feb6605064031444753449"
     end
 
     on_intel do
       url "https://github.com/gbenm/fire/releases/download/v#{version}/fire-v#{version}-linux-x86_64.tar.gz"
-      sha256 "9b7aa4e8c6fb78f1bcf567458ffa00daa6a370f7dfb2c07461554f8d07c8a610"
+      sha256 "94781516f8f4d08bc2e24d864130c91664190b9f2826ed762ba19609da6b083a"
     end
   end
 
